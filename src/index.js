@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     element: <MyWork />,
   },
   {
-    path: "/mywork/worktutu",
+    path: "/mywork/:id",
     element: <ProjectOverview />,
   },
   {
