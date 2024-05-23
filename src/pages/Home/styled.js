@@ -28,13 +28,14 @@ export const SSecondaryTitle = styled.div`
   font-weight: regular;
   color: #c7b7a3;
 `;
-export const SWomanContainer = styled.div`
-  width: 600px;
-  height: 700px;
-`;
+
 export const SWomanImage = styled.div`
   width: 100%;
   background-image: url(${woman});
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  height: 700px;
 `;
 export const SSection = styled.section`
   display: flex;
@@ -48,5 +49,5 @@ export const SCircle = styled.div`
   width: 300px;
   height: 300px;
   background-image: url(${coffee});
-  background-position: center;
+  background-size: cover;
 `;

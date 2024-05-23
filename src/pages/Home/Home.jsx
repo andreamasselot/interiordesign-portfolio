@@ -1,4 +1,4 @@
-import { SCircle, SContainer, SSecondaryTitle, SSection, STitle, STitleContainer, SWomanContainer, SWomanImage } from "./styled";
+import { SCircle, SContainer, SSecondaryTitle, SSection, STitle, STitleContainer, SWomanImage } from "./styled";
 
 export const Home = () => {
   return (
@@ -8,9 +8,9 @@ export const Home = () => {
           <SSecondaryTitle>Interior Design</SSecondaryTitle>
       </STitleContainer>
     <SSection>
-      <SWomanContainer>
+      <div>
         <SWomanImage></SWomanImage>
-      </SWomanContainer>
+      </div>
       <SCircle></SCircle>
     </SSection>
     </SContainer>
