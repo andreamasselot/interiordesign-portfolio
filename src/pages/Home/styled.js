@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import woman from "../../images/woman.jpg";
 import coffee from "../../images/coffee.jpg";
@@ -44,7 +45,7 @@ export const SSection = styled.section`
   gap: 40px;
   margin-top: 60px;
 `;
-export const SCircle = styled.div`
+export const SCircle = styled(Link)`
   border-radius: 100%;
   border: 1px black solid;
   width: 300px;
