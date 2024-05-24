@@ -10,7 +10,7 @@ export const SContainer = styled.div`
   align-items: center;
   margin: auto;
   gap: 20px;
-  margin-top: 75px;
+  margin-top: 20px;
 `;
 export const STitleContainer = styled.div`
   display: flex;
@@ -34,14 +34,15 @@ export const SWomanImage = styled.div`
   background-image: url(${woman});
   background-size: cover;
   background-position: center;
-  width: 600px;
-  height: 700px;
+  width: 500px;
+  height: 600px;
 `;
 export const SSection = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  margin-top: 60px;
 `;
 export const SCircle = styled.div`
   border-radius: 100%;
@@ -50,4 +51,18 @@ export const SCircle = styled.div`
   height: 300px;
   background-image: url(${coffee});
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.9;
+  }
+`;
+export const SEnterBtn = styled.div`
+  color: #c7b7a3;
+  font-family: "Sweet Sans Pro Regular";
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: larger;
 `;
