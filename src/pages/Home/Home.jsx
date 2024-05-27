@@ -11,7 +11,7 @@ export const Home = () => {
       <div>
         <SWomanImage></SWomanImage>
       </div>
-        <SCircle to='/mywork'>
+        <SCircle to='/concepts'>
             <SEnterBtn>ENTER</SEnterBtn>
         </SCircle>
       </SSection>

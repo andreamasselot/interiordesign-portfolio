@@ -5,9 +5,9 @@ import "./index.css";
 
 import App from "./App";
 import { Home } from "./pages/Home";
-import { MyWork, ProjectOverview } from "./pages/MyWork";
+import { Concepts, ProjectOverview } from "./pages/Concepts";
 import { AboutMe } from "./pages/AboutMe";
-import { Prices } from "./pages/Prices";
+import { Services } from "./pages/Services";
 import { Contact } from "./pages/Contact";
 
 const router = createBrowserRouter([
@@ -16,11 +16,11 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/mywork",
-    element: <MyWork />,
+    path: "/concepts",
+    element: <Concepts />,
   },
   {
-    path: "/mywork/:id",
+    path: "/concepts/:id",
     element: <ProjectOverview />,
   },
   {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
     element: <AboutMe />,
   },
   {
-    path: "/prices",
-    element: <Prices />,
+    path: "/services",
+    element: <Services />,
   },
   {
     path: "/contact",

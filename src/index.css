@@ -136,3 +136,7 @@ h4 {
   font-weight: bolder;
   letter-spacing: 1px;
 }
+a {
+  cursor: pointer;
+  text-decoration: none;
+}

@@ -1,7 +1,9 @@
+import { TopBar } from "../../components/TopBar/TopBar";
+
 export const Contact = () => {
   return (
     <div>
-      Contact
+      <TopBar/>
     </div>
   )
 };

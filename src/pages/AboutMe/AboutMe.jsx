@@ -1,7 +1,9 @@
+import { TopBar } from "../../components/TopBar/TopBar";
+
 export const AboutMe = () => {
   return (
     <div>
-      About Me
+      <TopBar/>
     </div>
   )
 };
